@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartSight Assistance</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  </head>
+<body>
+  <h1>SmartSight - Visual Assistance</h1>
+  <p id="status">Listening for keyword "يا عدسه"... </p>
+  <video id="webcam" autoplay></video>
+  <canvas id="snapshot" style="display: none;"></canvas> <!-- Used for capturing an image -->
+
+  <p id="input"></p> <!-- To display the recognized text -->
+  <div id="result"></div> <!-- To display the results -->
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
